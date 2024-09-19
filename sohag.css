@@ -17,25 +17,6 @@ a {
     z-index: 10;
 }
 
-.All {
-    font-size: 1.5vw;
-    font-weight: bold;
-}
-
-.All2 {
-    font-size: 1.5vw;
-    font-weight: bolder;
-}
-
-.All3 {
-    font-size: 1vw;
-    font-weight: bolder;
-}
-
-.All1 {
-    font-size: 1.7vw;
-    font-weight: bold;
-}
 
 .color {
     background-color: blue;
@@ -52,13 +33,6 @@ a {
 }
 .wid{
     width: 2.2vw;
-}
-
-.pro { 
-    font-weight: bold;
-    font-size: 1.3vw;
-    direction: rtl;
-    animation: viwedisplay 0.8s forwards;
 }
 
 .d {
@@ -193,4 +167,58 @@ a {
 }
 .slider-items div a img{
     width: 100%;
+}
+@media screen and (max-width:600px) {
+    .All {
+        font-size: 2vw;
+        font-weight: bold;
+    }
+    
+    .All2 {
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+    
+    .All3 {
+        font-size: 1vw;
+        font-weight: bolder;
+    }
+    
+    .All1 {
+        font-size: 1.7vw;
+        font-weight: bold;
+    }
+    .pro { 
+        font-weight: bold;
+        font-size: 1.4vw;
+        direction: rtl;
+        animation: viwedisplay 0.8s forwards;
+    }
+    
+} @media screen and (min-width:601px) {
+    .All {
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+    
+    .All2 {
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+    
+    .All3 {
+        font-size: 1vw;
+        font-weight: bolder;
+    }
+    
+    .All1 {
+        font-size: 1.7vw;
+        font-weight: bold;
+    }
+    .pro { 
+        font-weight: bold;
+        font-size: 1.3vw;
+        direction: rtl;
+        animation: viwedisplay 0.8s forwards;
+    }
 }

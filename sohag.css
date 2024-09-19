@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+* {
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav {
+    top: 0px;
+    position: sticky;
+    z-index: 10;
+}
+
+.All {
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.All2 {
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+
+.All3 {
+    font-size: 1vw;
+    font-weight: bolder;
+}
+
+.All1 {
+    font-size: 1.7vw;
+    font-weight: bold;
+}
+
+.color {
+    background-color: blue;
+    border-radius: 15px;
+    &:hover {
+        transition: background-color box-shadow 0.7s;
+        box-shadow: 1px 0px 4px 4px rgba(17, 17, 17, 0.521);
+        background-color: rgb(254, 171, 17);
+    }
+}
+
+.icwn {
+    font-size: 2.5vw;
+}
+.wid{
+    width: 2.2vw;
+}
+
+.pro {
+    font-weight: bold;
+    font-size: 1.2vw;
+    direction: rtl;
+    animation: viwedisplay 0.8s forwards;
+}
+
+.d {
+    display: none;
+}
+.ic{
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+.icsh{
+    opacity: 1;
+}
+
+.disl {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .showl {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+.disr {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .showr {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+.disc {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .showc {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .lft{
+    animation: lft 0.5s forwards;
+}
+@keyframes lft {
+    from {
+        transform: translate(-100%,0px);
+        opacity: 0;
+    }
+    to {
+            transform: translate(0);
+        opacity: 1;
+    }
+}
+.cent{
+    animation: cent 0.5s forwards;
+}
+@keyframes cent {
+    from {
+        transform: translate(0,50px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+.rit{
+    animation: rit 0.5s forwards;
+}
+@keyframes rit {
+    from {
+        transform: translate(100%,0px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.cl {
+    font-size: 2vw;
+    background-color: white;
+    &:hover {
+        background-color: red;
+    }
+}
+
+#section {
+    display: grid;
+    place-items: center;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.slider-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: scrolling 20s linear infinite alternate;
+
+}
+
+@keyframes scrolling {
+
+    0% {
+        transform: translateX(30%);
+    }
+
+    100% {
+        transform: translateX(-30%);
+    }
+}
+
+.slider-items div {
+    width: 5%;
+}
+.slider-items div a img{
+    width: 100%;
+}
+
+/* @media screen and (max-width:300px) {
+    .Marg {
+        box-sizing: border-box;
+        margin-right: 0.35rem;
+    }
+}
+
+@media screen and (min-width:420px) {
+    .Marg {
+        box-sizing: border-box;
+        margin-right: 0.6rem;
+    }
+} */
+
+/* @media screen and (min-width:520px) {
+
+} */
+
+/* @media screen and (min-width:650px) {
+    .Marg {
+        box-sizing: border-box;
+        margin-right: 0.8rem;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .Marg {
+        box-sizing: border-box;
+        margin-right: 0.9rem;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .Marg {
+        box-sizing: border-box;
+        margin-right: 1.3rem;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .Marg {
+        box-sizing: border-box;
+        margin-right: 1.5rem;
+    }
+} */

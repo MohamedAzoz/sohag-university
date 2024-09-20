@@ -64,6 +64,8 @@ let all2=document.getElementById("all2");
 let all3=document.getElementById("all3");
 let all4=document.getElementById("all4");
 let all5=document.getElementById("all5");
+let all6=document.getElementById("all6");
+let all7=document.getElementById("all7");
 
 btn.onclick = function() {
     pr.classList.toggle("d");
@@ -198,4 +200,10 @@ function All4fun(){
 }
 function All5fun(){
     all5.classList.toggle("d")
+}
+function All6fun(){
+    all6.classList.toggle("d")
+}
+function All7fun(){
+    all7.classList.toggle("d")
 }

@@ -83,7 +83,17 @@
         opacity: 1;
     }
 }
-.foot{
-    top: 97%;
-    position:fixed;
-}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .cont {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main {
+    flex-grow: 1;
+  }

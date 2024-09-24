@@ -108,15 +108,15 @@ addEventListener("scroll",function(){
 });
 
 let arrcolors = [];
-arrcolors[0] = "linear-gradient(0deg, #9B9B9B, #3054F2 )";
-arrcolors[1] = "linear-gradient(45deg, #9B9B9B, #3054F2 )";
-arrcolors[2] = "linear-gradient(90deg, #9B9B9B, #3054F2 )";
-arrcolors[3] = "linear-gradient(135deg, #9B9B9B, #3054F2)";
-arrcolors[4] = "linear-gradient(180deg, #9B9B9B, #3054F2)";
-arrcolors[5] = "linear-gradient(225deg, #9B9B9B, #3054F2)";
-arrcolors[6] = "linear-gradient(270deg, #9B9B9B, #3054F2)";
-arrcolors[7] = "linear-gradient(315deg, #9B9B9B, #3054F2)";
-arrcolors[8] = "linear-gradient(360deg, #9B9B9B, #3054F2)";
+arrcolors[0] = "linear-gradient(0deg, #E0F7FA, #80CBC4,#CFD8DC)";
+arrcolors[1] = "linear-gradient(45deg, #E0F7FA, #80CBC4,#CFD8DC)";
+arrcolors[2] = "linear-gradient(90deg, #E0F7FA, #80CBC4,#CFD8DC)";
+arrcolors[3] = "linear-gradient(135deg, #E0F7FA, #80CBC4,#CFD8DC)";
+arrcolors[4] = "linear-gradient(180deg, #E0F7FA, #80CBC4,#CFD8DC)";
+arrcolors[5] = "linear-gradient(225deg, #E0F7FA, #80CBC4,#CFD8DC)";
+arrcolors[6] = "linear-gradient(270deg, #E0F7FA, #80CBC4,#CFD8DC)";
+arrcolors[7] = "linear-gradient(315deg, #E0F7FA, #80CBC4,#CFD8DC)";
+arrcolors[8] = "linear-gradient(360deg, #E0F7FA, #80CBC4,#CFD8DC)";
 var counter = 0;
 
 function colofunc() {

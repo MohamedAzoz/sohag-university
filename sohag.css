@@ -34,6 +34,10 @@ color: #003366;
         transition: background-color box-shadow 0.7s;
         box-shadow: 1px 0px 4px 4px rgba(17, 17, 17, 0.521);
         background-color: #E0F2F1;
+        p{
+            color: #000;
+            font-weight: bold;
+        }
     }
 }
 
@@ -56,13 +60,13 @@ color: #003366;
     opacity: 1;
 }
 
-.disl {
+/* .disl,.disl2  {
     opacity: 0;
     transform: translateX(-50px);
     transition: transform 0.5s ease-out, opacity 0.5s ease-out;
   }
   
-  .showl {
+  .showl, .showl2 {
     opacity: 1;
     transform: translateX(0);
   }
@@ -91,7 +95,7 @@ color: #003366;
   
   .lft{
     animation: lft 0.5s forwards;
-}
+} */
 @keyframes lft {
     from {
         transform: translate(-100%,0px);
@@ -102,9 +106,9 @@ color: #003366;
         opacity: 1;
     }
 }
-.cent{
+/* .cent{
     animation: cent 0.5s forwards;
-}
+} */
 @keyframes cent {
     from {
         transform: translate(0,50px);
@@ -115,9 +119,9 @@ color: #003366;
         opacity: 1;
     }
 }
-.rit{
+/* .rit{
     animation: rit 0.5s forwards;
-}
+} */
 @keyframes rit {
     from {
         transform: translate(100%,0px);
@@ -179,35 +183,8 @@ color: #003366;
 .slider-items div a img{
     width: 100%;
 }
-@media screen and (max-width:600px) {
-    .All {
-        font-size: 2vw;
-        font-weight: bolder;
-    }
-    
-    .All2 {
-        font-size: 1.5vw;
-        font-weight: bolder;
-    }
-    
-    .All3 {
-        font-size: 1vw;
-        font-weight: bolder;
-    }
-    
-    .All1 {
-        font-size: 1.7vw;
-        font-weight: bold;
-    }
-    .pro { 
-        font-weight: bolder;
-        font-size: 2vw;
-        direction: rtl;
-        animation: viwedisplay 0.8s forwards;
-    }
-    
-} @media (max-width:950px)and(max-height:1100px) {
-    /* .disl,.disl2 {
+@media (max-width:600px) and (max-height:950px) {
+    .disl,.disl2 {
         opacity: 0;
         transform: translateX(-50px);
         transition: transform 0.5s ease-out, opacity 0.5s ease-out;
@@ -241,15 +218,87 @@ color: #003366;
       }
       
       .lft{
-        animation: lft 0.8s forwards;
+        animation: lft 1s forwards;
     }
     .cent{
-        animation: cent 0.8s forwards;
+        animation: cent 1s forwards;
     }
     
     .rit{
-        animation: rit 0.8s forwards;
-    } */
+        animation: rit 1s forwards;
+    }
+    .All {
+        font-size: 2vw;
+        font-weight: bolder;
+    }
+    
+    .All2 {
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+    
+    .All3 {
+        font-size: 1vw;
+        font-weight: bolder;
+    }
+    
+    .All1 {
+        font-size: 1.7vw;
+        font-weight: bold;
+    }
+    .pro { 
+        font-weight: bolder;
+        font-size: 2vw;
+        direction: rtl;
+        animation: viwedisplay 0.8s forwards;
+    }
+   
+}
+
+ @media (min-width:601px) and (min-height:951px) {
+    .disl {
+        opacity: 0;
+        transform: translateX(-50px);
+        transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+      }
+      
+      .showl{
+        opacity: 1;
+        transform: translateX(0);
+      }
+      
+    .disr {
+        opacity: 0;
+        transform: translateX(50px);
+        transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+      }
+      
+      .showr {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      
+    .disc {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+      }
+      
+      .showc {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      
+      .lft,.disl2{
+        animation: lft 1s forwards;
+    }
+    .cent,.disc2{
+        animation: cent 1s forwards;
+    }
+    
+    .rit,.disr2{
+        animation: rit 1s forwards;
+    }
     .All {
         font-size: 1.5vw;
         font-weight: bold;
@@ -276,8 +325,9 @@ color: #003366;
         animation: viwedisplay 0.8s forwards;
     }
 }
-@media (max-width:950px)and(max-height:1100px) {
-    /* .disl,.disl2 ,.lft{ 
+
+@media (min-width:951px) and (max-height:950px) {
+    .disl,.disl2 ,.lft{ 
         opacity: 0;
         transform: translateX(-50px);
         transition: transform 0.5s ease-out, opacity 0.5s ease-out;
@@ -308,7 +358,7 @@ color: #003366;
       .showc,.showc2 {
         opacity: 1;
         transform: translateY(0);
-      } */
+      }
       
     .All {
         font-size: 1.5vw;

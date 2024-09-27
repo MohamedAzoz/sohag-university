@@ -57,6 +57,24 @@ function isInViewport(ele) {
       }
     });
   });
+  window.addEventListener('scroll', function() {
+    var iconsl2 = document.querySelectorAll('.disl2');
+    
+    iconsl2.forEach(function(icon) {
+      if (isInViewport(icon)) {
+        icon.classList.add("showl2");
+      }
+    });
+  });
+  window.addEventListener('scroll', function() {
+    var lft = document.querySelectorAll('.lft');
+    
+    lft.forEach(function(icon) {
+      if (isInViewport(icon)&&window.innerHeight<900) {
+        icon.classList.add("showl2");
+      }
+    });
+  });
 
 function isright(e) {
     const rect = e.getBoundingClientRect();
@@ -77,6 +95,24 @@ function isright(e) {
       }
     });
   });
+  window.addEventListener('scroll', function() {
+    var iconsr2 = document.querySelectorAll('.disr2');
+    
+    iconsr2.forEach(function(icon) {
+      if (isright(icon)) {
+        icon.classList.add('showr2');
+      }
+    });
+  });
+  window.addEventListener('scroll', function() {
+    var rit = document.querySelectorAll('.rit');
+    
+    rit.forEach(function(icon) {
+      if (isright(icon)&&window.innerHeight<900) {
+        icon.classList.add('showr2');
+      }
+    });
+  });
 function iscent(el) {
     const rect = el.getBoundingClientRect();
     return (
@@ -93,6 +129,24 @@ function iscent(el) {
     iconsc.forEach(function(icon) {
       if (iscent(icon)) {
         icon.classList.add('showc');
+      }
+    });
+  });
+  window.addEventListener('scroll', function() {
+    var iconsc2 = document.querySelectorAll('.disc2');
+    
+    iconsc2.forEach(function(icon) {
+      if (iscent(icon)) {
+        icon.classList.add('showc2');
+      }
+    });
+  });
+  window.addEventListener('scroll', function() {
+    var cent = document.querySelectorAll('.cent');
+    
+    cent.forEach(function(icon) {
+      if (iscent(icon)&&window.innerHeight<900) {
+        icon.classList.add('showc2');
       }
     });
   });

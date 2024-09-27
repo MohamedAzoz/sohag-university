@@ -15,7 +15,9 @@
 .textc {
     text-align: center;
 }
-
+.hov:hover{
+    background-color:#D4AF37;
+    }
 .d{
     display: none;
 }
